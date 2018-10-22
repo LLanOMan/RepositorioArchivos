@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head lang="es">
+	<meta charset="UTF-8">
+	<meta http-equiv=”Content-Type” content=”text/html; charset=utf-8″ />
+	<meta name="description" content="Gestor Documentos">
+	<meta name="keywords" content="HTML,CSS,XML,JavaScript">
+	<meta name="author" content="Giulianno Marquesani">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Administrador de archivos</title>	
+	<link href="assets/css/styles.css" rel="stylesheet"/>
+	<link rel="icon" href="img/favicon.png" type="image/gif" sizes="16x16">
+
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js"></script>	
+	<script type="text/javascript" src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+	<script type="text/javascript" src="https://cdn.datatables.net/1.10.19/js/dataTables.semanticui.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.min.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.min.css">
+	<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/dataTables.semanticui.min.css">
+</head>
+<body>	
+	<div class="filemanager" id="divTabla">		
+		<table class="ui celled table" id="example" style="width:100%">			
+			<thead>
+				<tr>
+					<th>Tipo</th>
+					<th id="thNombre">Nombre</th>
+					<th>Tama&ntilde;o</th>
+					<th>Modificado</th>						
+				</tr>
+			</thead>
+			<tbody class="data">				
+			</tbody>
+		</table>
+	</div>		
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script src="assets/js/script.js"></script>	
+</body>
+</html>
